@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>    
+    <meta charset="utf-8">
+    <title>Quizr</title>
+    
+    <link rel="stylesheet" type="text/css" href="css/home.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script type="text/javascript" src="js/notify.min.js"></script> <!--Notify.min.js is a jQuery plugin to provide simple notifications-->
+    <script type="text/javascript" src="js/home.js"></script>
+</head>
+
+<body> 
+    <main>
+        <div id="logoImage">
+            <img src="images/logo.png" alt="logo" id="logo">
+        </div>
+        <form class="signUpForm" action="quizSelection.html" method="get" name="registrationForm" id="registrationForm">
+            <div class="register">
+                <input type="text" id="fname" name="fname" placeholder="Enter your First Name">
+                <input type="text" id="emailAddress" name="emailAddress" placeholder="Enter your Email Address">
+                <input type="password" id="password" name="password" placeholder="Enter your Password">
+                <button type="submit" value="Submit" id="registerButton" name="registerButton">Register</button>
+            </div>
+        </form>
+    </main>
+</body>
+</html>

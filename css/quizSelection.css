@@ -1,0 +1,123 @@
+*{
+    background-color: black;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 15px;
+    color: aliceblue;
+}
+nav{
+    background-color: black;
+    border-bottom: 1px solid darkslategray;
+    margin-bottom: 2px;
+    display: flex;
+}
+#coverPic{
+    padding-left: 2.5em;
+    width: 50%;
+}
+#logoutButton{
+    width: 50%;
+    text-align: right;
+    padding-top: 1em;
+}
+a{
+    text-decoration: none;
+}
+#logoPic{
+    height: 50px;
+    width: 100px;
+}
+#logout{
+    font-size: bold;
+    background-color: black;
+    cursor: pointer;
+    color: skyblue;
+}
+#logout:hover{
+    color: aqua;
+}
+.content{
+    display: flex;
+    background-color: 2px solid black;
+}
+.sideBar{
+    height: 550px;
+    text-align: center;
+    border-right: 1px solid darkslategray;
+}
+#profilePic{
+    margin-top: 10px;
+    height: 35px;
+    width: 35px;
+}
+hr{
+    width: 170px;
+    margin-right: 5px;
+    border: 0.5px solid darkslategray;
+}
+.dateTime{
+    padding: 1em;
+    margin: 1em;
+}
+#dynamicDate {
+    margin-bottom: 10px;
+}
+#dynamicDate, #dynamicTime{
+    display: block;
+    color: aqua;
+}
+.quizPalette{
+    width: 90%;
+    margin-left: 4px;
+    display: flex;
+    float: left;
+    padding: 2em;
+}
+.quiz1,
+.quiz2,
+.quiz3 {
+    width: 40%;
+    height: 50%;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 5em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.quiz1, 
+#heading1{
+    background-color: coral;
+}
+.quiz2, 
+#heading2{
+    background-color: greenyellow;
+}
+.quiz3, 
+#heading3{
+    background-color: skyblue;
+}
+#heading1, 
+#heading2,
+#heading3 {
+    margin-top: 4.5em;
+    font-size: 25px;
+    cursor: pointer;
+}
+#heading1:hover, 
+#heading2:hover,
+#heading3:hover{
+   text-decoration: underline;
+}
+#welcome{
+    font-size: 15px;
+}
+div.profile p,
+.userName{
+    color: aqua;
+}
+footer{
+    display: block;
+    background-color: darkslategray;
+    font-size: 70%;
+    text-align: center;
+    padding: 10px;
+}

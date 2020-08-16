@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>    
+    <meta charset="utf-8">
+    <title>Quizr</title>
+    
+    <link rel="stylesheet" type="text/css" href="css/quizSelection.css">
+    <link rel="stylesheet" type="text/css" href="css/jsQuiz.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script type="text/javascript" src="js/quizSelection.js"></script>
+    <script type="text/javascript" src="js/jsQuiz.js"></script>
+</head>
+
+<body>    
+    <nav>
+        <div id="coverPic">
+            <img src="images/cover.png" alt="logoPic" id="logoPic">
+        </div>
+        <div id="logoutButton">
+            <a href="home.html"><label id="logout">Logout</label></a>
+        </div>
+    </nav>
+    <main>
+        <div class="content">
+            <div class="sideBar">
+                <div class="profile">
+                    <img src="images/profile.png" alt="profilePic" id="profilePic">
+                    <p id="welcome">Welcome, <span class="userName">name</span></p>
+                    <hr>
+                </div>
+                <div class="questionList"></div>
+            </div> 
+            <div class="subContent">
+                <div class="box1">
+                    <div class="instructions">
+                        <p>All the questions in this quiz are Multiple-Choice-Question type.</p>
+                        <p>There are total 7 questions. Each question carries 1 point.</p>
+                        <p>There is no negative marking.</p>
+                    </div>
+                <button type="button" id="startBtn">Start Quiz</button>
+                </div>
+                <div id="questionBox">
+                    <div class="questionHtml">
+                        <h1 id="questionCounter"></h1>
+                        <h2 id="questionTxt"></h2>
+                    </div>
+                    
+                    <div id="optionsContainer" class="optionsHtml"></div>
+                    <button type="button" id="nextBtn">Next</button>
+                    <button type="button" id="submitBtn">Submit</button>
+                </div>
+                <div class="resultBox">
+                    <div class="finalInfo">
+                        <p>Thank you for taking the quiz.</p>
+                        <p>Marks Obtained: &nbsp;&nbsp;<span id="mo"></span></p>
+                    </div>
+                    <button type="button" id="goBack">Go back to Quiz Palette</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>Copyright &#64;Quizr 2020</footer>
+</body>
+</html>
